@@ -1,6 +1,9 @@
 # Qatar_Assignment_React
 Author (Mohammed Sohail)
 
+### GitHub repo to be cloned : https://github.com/9005/Qatar_Assignment_React.git 
+### Pull the main branch which is upto date with Assignment. 
+
 ## Available Scripts
 
 In the project directory, you can run:
