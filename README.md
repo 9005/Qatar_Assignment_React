@@ -49,3 +49,5 @@ Flow of Assingment is as follows :
    https://jsonplaceholder.typicode.com/posts/1
 
  * SideNavBar.test.js --> test written to fetch user details displayed in Fixed Side Bar.
+
+ * Github repo link : https://github.com/9005/Qatar_Assignment_React.git
