@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.qatar-website-container {
+  padding: 15px;
+  height: calc(100vh - 1rem - 15px);
+}
+
+.grid-container {
+  display: grid;
+  width: calc(100vw - 30px);
+  grid-template-columns: 20% calc(100vw - 30px - 20%);
+  background-color: aquamarine;
+  height: inherit;
+}
+
+.side-bar {
+  background-color: antiquewhite;
+}
+
+.content-section {
+  background-color: aqua;
+  min-height: calc(100vh - 1rem - 15px);
+  overflow-y: auto;
+}
+
+.user-details-label {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.list-section {
+  margin: 0 0 1rem 0;
+}
+
+.user-details-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+  line-height: 1.6;
+}
+
+.label-name {
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.value-name {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.list-button {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.list-button:hover {
+  background-color: pink;
+}
+
+.blog-list-section {
+  display: flex;
+  padding: 10px;
+}
+
+.detail-blogs-section {
+  display: flex;
+  padding: 3rem;
+  align-items: center;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-button {
+  width: 200px;
+  height: 50px;
+  background-color: darkgrey;
+  border-radius: 20px;
+  color: green;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.edit-button:hover {
+  background-color: pink;
+}
+
+.routes-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.dashboard-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.edit-form {
+  margin-left: 3.7rem;
+  overflow: auto;
+  padding: 15px;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+/* for small devices layout will be having one column and acquires full width */
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100%;
+    background-color: aquamarine;
+    height: inherit;
+  }
+  
+.content-section {
+ margin-top: 1rem;
+}
+}
